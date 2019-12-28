@@ -75,6 +75,7 @@ public class StrMatchAlg {
         return matchTable;
     }
 
+    //暴力匹配
     public static int violenceMath(String str1, String str2){
         char[] s1 = str1.toCharArray();
         char[] s2 = str2.toCharArray();
